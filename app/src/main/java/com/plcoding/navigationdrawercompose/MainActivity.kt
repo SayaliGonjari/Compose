@@ -12,6 +12,7 @@ import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Face
 import androidx.compose.material.icons.filled.Home
 import androidx.compose.material.icons.filled.Settings
+import androidx.compose.material3.MaterialTheme
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.ui.Modifier
@@ -78,7 +79,7 @@ fun MainScreenPreview() {
 }
 
 
-@Composable
+/*@Composable
 fun NavigationDrawer(context: Context) {
     NavigationDrawerComposeTheme {
         val scaffoldState = rememberScaffoldState()
@@ -134,6 +135,6 @@ fun NavigationDrawer(context: Context) {
 
         }
     }
-}
+}*/
 
 
